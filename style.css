@@ -311,6 +311,28 @@
   margin-bottom: 121px;
 }
 
+ /* about section styles  */
+
+.about {
+  width: 1440px;
+  height: 449px;
+  border-radius: 10px;
+  margin-left: 240px;
+  
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-info {
+  text-align: center;
+}
+
+
+
 /* footer related styles */
 .footer-bottom {
   background: #111010;

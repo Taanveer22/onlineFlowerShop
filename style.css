@@ -85,7 +85,7 @@
 
 /* rounded flowers section */
 
-.rounded-flowers-sec{
+.rounded-flowers-sec {
   margin-bottom: 128px;
 }
 
@@ -166,6 +166,8 @@
 /* hot deal section styles*/
 
 .hotdeal {
+  width: 1922px;
+  height: 620px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   margin-bottom: 128px;
@@ -173,25 +175,47 @@
 
 .hotdeal-info {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 186px;
 }
 
 .hotdeal-title {
+  width: 537px;
+  height: 48px;
   color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin-top: 230px;
+  margin-bottom: 24px;
+  margin-left: 423px;
 }
 
 .hotdeal-description {
+  width: 594px;
+  height: 60;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-left: 395px;
+  margin-bottom: 32px;
 }
 
-.dealimage {
-  background: lightgray 50% / cover no-repeat;
+.hdbtn {
+  margin-left: 603px;
+  margin-bottom: 160px;
+}
+
+.hdimg {
+  width: 318px;
+  height: 420px;
+  background: 50% / cover no-repeat;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 429px;
 }
 
 /* insta section styles */
@@ -199,26 +223,40 @@
   margin-bottom: 128px;
 }
 .insta-heading {
+  width: 180px;
+  height: 48px;
   color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-right: 870px;
+  margin-left: 870px;
+  margin-bottom: 24px;
 }
 
 .insta-description {
+  width: 594px;
+  height: 60px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-left: 663px;
+  margin-right: 663px;
   margin-bottom: 48px;
 }
 
 .insta-flower-container {
+  width: 1440px;
+  height: 396px;
   display: flex;
+  gap: 24px;
   justify-content: space-around;
   align-items: center;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 128px;
 }
 
 .insta1 {
@@ -230,48 +268,99 @@
 /* subscribe section styles */
 .subscribe {
   background: url("images/Rectangle 9.png");
-  width: 900px;
-  height: 300px;
-  margin: auto;
+  width: 1440px;
+  height: 449px;
   margin-bottom: 128px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.subscribe-title {
+  width: 373px;
+  height: 48px;
+  color: #272727;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 122px;
+  margin-left: 533px;
+  margin-right: 534px;
+  margin-bottom: 12px;
+}
+
+.subscribe-description {
+  width: 231px;
+  height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 604px;
+  margin-right: 605px;
+  margin-bottom: 48px;
+}
+
+.sub-email {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 16px;
+  margin-left: 287px;
+  margin-bottom: 121px;
 }
 
 /* footer related styles */
 .footerbottom {
   background: #111010;
-  width: 1000px;
-  height: 330px;
-  margin: auto;
-  padding: 0 120px;
+  width: 1922px;
+  height: 449px;
 }
 
 .footer-title {
+  width: 259px;
+  height: 58px;
   text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 128px;
+  margin-left: 831px;
+  margin-right: 832px;
+  margin-bottom: 24px;
 }
 
 .pink {
   color: #e55473;
-  font-size: 48px;
   font-weight: 800;
 }
 
 .white {
   color: #fff;
-  font-size: 48px;
   font-weight: 800;
 }
 
 .footer-description {
+  width: 625px;
+  height: 60px;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-left: 648px;
+  margin-right: 649px;
+  margin-bottom: 32px;
 }
 
 .footer-copy {
+  width: 355px;
+  height: 19px;
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+  margin-left: 784px;
+  margin-right: 783px;
+  margin-bottom: 128px;
 }

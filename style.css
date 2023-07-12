@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* common shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-pink {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* header related styles */
+.headertop {
+  background-color: #e554731a;
+  margin-bottom: 178px;
+  width: 1920px;
+  height: 850px;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  gap: 97px;
+}
+
+.banner-title {
+  color: #272727;
+  width: 708px;
+  height: 288px;
+  font-size: 80px;
+  font-weight: 800;
+  margin-top: 197px;
+  margin-bottom: 32px;
+}
+
+.banner-description {
+  color: #27272799;
+  width: 634px;
+  height: 90px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.banner-pic {
+  width: 635px;
+  height: 800px;
+  background: 50% / cover no-repeat;
+}
+
+/* featured section related styles */
+.featured {
+  width: 594px;
+  height: 132px;
+  margin-bottom: 48px;
+  margin-left: 663px;
+  margin-right: 663px;
+}
+
+.featured-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.featured-description {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+/* rounded flowers section */
+
+.rounded-flowers-sec{
+  margin-bottom: 128px;
+}
+
+.rounded-flowers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 538px;
+  gap: 24px;
+  margin-left: 240px;
+  margin-bottom: 32px;
+}
+
+.rfpic1 {
+  width: 310px;
+  height: 428px;
+  background: url("images/pngwing 6.png"), 50% / cover no-repeat;
+}
+
+.rfback1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding-top: 110px;
+  padding-left: 76px;
+  padding-right: 78px;
+}
+.rfpic2 {
+  width: 370px;
+  height: 370px;
+  background: url("images/pngwing 5.png"), 50% / cover no-repeat;
+}
+
+.rfback2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding-bottom: 51px;
+  padding-top: 117px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+.rfpic3 {
+  width: 314px;
+  height: 471px;
+  background: url("images/pngwing 7.png"), 50% / cover no-repeat;
+}
+
+.rfback3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding-top: 67px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.text {
+  width: 1140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 381px;
+  margin-right: 381px;
+  gap: 280px;
+  text-decoration: underline;
+}
+
+.t1 {
+  width: 181px;
+  height: 35px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* hot deal section styles*/
+
+.hotdeal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 128px;
+}
+
+.hotdeal-info {
+  display: flex;
+}
+
+.hotdeal-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hotdeal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.dealimage {
+  background: lightgray 50% / cover no-repeat;
+}
+
+/* insta section styles */
+.insta {
+  margin-bottom: 128px;
+}
+.insta-heading {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.insta-flower-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.insta1 {
+  background: lightgray 50% / cover no-repeat;
+  width: 342px;
+  height: 396px;
+}
+
+/* subscribe section styles */
+.subscribe {
+  background: url("images/Rectangle 9.png");
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 128px;
+}
+
+/* footer related styles */
+.footerbottom {
+  background: #111010;
+  width: 1000px;
+  height: 330px;
+  margin: auto;
+  padding: 0 120px;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.pink {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.white {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-copy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}

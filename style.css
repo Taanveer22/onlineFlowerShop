@@ -18,7 +18,7 @@
 }
 
 /* header related styles */
-.headertop {
+.header-top {
   background-color: #e554731a;
   margin-bottom: 178px;
   width: 1920px;
@@ -312,7 +312,7 @@
 }
 
 /* footer related styles */
-.footerbottom {
+.footer-bottom {
   background: #111010;
   width: 1922px;
   height: 449px;
